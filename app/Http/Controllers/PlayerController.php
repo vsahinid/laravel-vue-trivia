@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 class PlayerController extends Controller
 {
     public function index()
-    {
+    {   
         return new PlayerCollection(Player::all());
     }
 
